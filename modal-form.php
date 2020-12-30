@@ -83,6 +83,11 @@
 		        headers: { 'Content-Type': 'application/x-www-form-urlencoded' }
 		    });
 		    }
+			$scope.saveContact = function(){
+        
+        	var url = "demo.php";
+        	$window.location.href = url;
+      }
 		});
 </script>
 
